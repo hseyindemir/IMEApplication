@@ -53,7 +53,9 @@ namespace LoginForm
         {
             AddIMEWorker workerform = new AddIMEWorker();
             AuthorizationManagement manager = new AuthorizationManagement();
-            manager.Show();
+            //manager.Show();
+            WorkerReport myform = new WorkerReport();
+            myform.Show();
             //workerform.Show();
         }
     }
